@@ -1,0 +1,103 @@
+body 
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+legend 
+{
+    background-color: rgb(229, 227, 227);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-style: solid;
+    border-color: rgb(183, 182, 182);
+    border-radius: 7.5px;
+    border-width: 5px;
+}
+
+fieldset
+{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 7.5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    box-shadow: 0 2px 10px rgba(76, 76, 76, 0.3);
+}
+
+textarea
+{
+    width: 450px;
+    height: 80px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: lightgrey;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+input[type=date],[type=text],[type=email],[type=password]
+{
+    margin-bottom: 5px;
+    width: 300px;
+    height: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+select
+{
+    width: 300px;
+    height: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#effacer
+{
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(0, 171, 209);
+    border-style: none;
+    color: white;
+    font-size: large;
+    margin: 10px;
+}
+
+#envoyer
+{
+    padding: 10px;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(0, 171, 209);
+    border-style: none;
+    color: white;
+    font-size: large;
+    margin: 10px;
+}
+
+#fichier
+{
+    margin-left: 20px;
+}

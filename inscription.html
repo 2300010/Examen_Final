@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="inscription.js"></script>
+</head>
+<body>
+    <form id="inscription" action="">
+        <fieldset id="coordonnees">
+            <legend>Vos coordonnées</legend>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="votre nom" required>
+            <br/>
+    
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="votre prénom" required>
+            <br/>
+    
+            <label for="dateDeNaissance">Date de naissance :</label>
+            <input type="date" id="dateDeNaissance" name="dateDeNaissance"  required>
+            <br/>
+    
+            <label for="mail">Mail :</label>
+            <input type="email" id="mail" name="mail" placeholder="votre mail" required>
+            <br/>
+    
+            <label for="site">Votre site :</label>
+            <input type="text" id="site" name="site" required>
+            <br/>
+    
+            <label for="code">Mot de passe :</label>
+            <input type="password" id="code" name="code" required>
+            <br/>
+    
+            <label for="genre">Genre :</label>
+            <input type="radio" id="genre" value="homme" required>
+            <label for="genre">Homme</label>
+            <input type="radio" id="genre" value="femme">
+            <label for="genre">Femme</label>
+            <br/>
+
+            <label for="pays">Pays :</label>
+            <select id="pays" required>
+                <option value="placeholder" disabled selected>Votre pays</option>
+
+                <optgroup label="Afrique">
+                    <option value="Tunis">Tunis</option>
+                    <option value="Algérie">Algérie</option>
+                    <option value="Maroc">Maroc</option>
+                    <option value="Mauritanie">Mauritanie</option>
+                </optgroup>
+
+                <optgroup label="Europe">
+                    <option value="France">France</option>
+                    <option value="Belgique">Belgique</option>
+                    <option value="Italie">Italie</option>
+                    <option value="Allemagne">Allemagne</option>
+                </optgroup>
+
+                <optgroup label="Amérique">
+                    <option value="fr">fr</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Argentine">Argentine</option>
+                </optgroup>
+
+                <optgroup label="Autres">
+                    <option value="Europerope">Europerope</option>
+                    <option value="Asie">Asie</option>
+                    <option value="Amériques">Amériques</option>
+                    <option value="Océanie">Océanie</option>
+                </optgroup>
+            </select>
+            <br/>
+        </fieldset>
+
+        <fieldset >
+            <legend>Vos informations</legend>
+
+            <input type="checkbox" id="HTML5" name="HTML5">
+            <label for="HTML5">Formation en HTML5</label>
+            <br/>
+
+            <input type="checkbox" id="CSS3" name="CSS3">
+            <label for="CSS3">Formation en CSS3</label>
+            <br/>
+
+            <input type="checkbox" id="JS" name="JS">
+            <label for="JS">Formation en JS</label>
+            <br/>
+
+            <textarea id="besoins" placeholder="Décrivez vos besoins en formation"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Envoyez nous vos photo</legend>
+            
+            <button id="fichier" name="fichier">Choisir un fichier</button>
+            <label for="fichier">Aucun fichier choisi</label>
+            <br/>
+            
+            <button id="effacer" name="effacer">Effacer</button>
+            <button id="envoyer" name="envoyer">Envoyer</button>
+        </fieldset>
+    </form>
+</body>
+</html>
